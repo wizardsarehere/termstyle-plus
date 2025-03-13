@@ -1,0 +1,43 @@
+{
+  "name": "termstyle-plus",
+  "version": "1.1.0",
+  "description": "The most comprehensive and powerful terminal styling library with extensive color support, gradients, animations, and special effects - TypeScript Edition",
+  "main": "dist/brighten.js",
+  "types": "dist/brighten.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node src/test.ts",
+    "start": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "colors",
+    "terminal",
+    "styling",
+    "ansi",
+    "console",
+    "cli",
+    "command-line",
+    "text-effects",
+    "gradient",
+    "rainbow",
+    "neon",
+    "animation",
+    "3d-text",
+    "gradients",
+    "effects",
+    "themes",
+    "terminal-styling",
+    "console-styling",
+    "text-decoration",
+    "text-effects",
+    "typescript"
+  ],
+  "author": "WizardHere",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.8.2"
+  }
+}
